@@ -27,7 +27,7 @@ int main(int ac, char **av)
         }
     }
     
-    if (eo & 1 == 1)
+    if ((eo & 1) == 1)
         printf("Bits are odd\n");
     else
         printf("Bits are even\n");
