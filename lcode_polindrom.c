@@ -70,7 +70,6 @@ int main(int ac, char **av)
             break;
         n = palindromNumber;
         n_reverse = reverse(n);
-        palindromNumber = n + n_reverse;
     }
     print(palindromNumber, totalSteps);
     return (0);
