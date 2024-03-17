@@ -37,7 +37,7 @@ bool isAnagram(char *s, char *t)
     return (true);
 }
 
-int main(int ac, char** av)
+int main( void )
 {
     char *c10 = "anagram";
     char *c11 = "nagaram";
