@@ -29,8 +29,7 @@ void selectionSort(int arr[], int size)
 
 int main( void )
 {
-    // int arr[] = {1, 2, 5, 3, -1};
-    int arr[] = {64, 25, 12, 22, 11};
+    int arr[] = {1, 2, 5, 3, -1};
     int size = sizeof(arr) / sizeof(arr[0]);
     selectionSort(arr, size);
     int i = -1;
