@@ -6,7 +6,6 @@ int searchInsert(int arr[], int size, int target)
     int start = 0;
     int end = size - 1;
     int mid = 0;
-    char context = 0;
     while (start <= end)
     {
         mid = (start + end) / 2;

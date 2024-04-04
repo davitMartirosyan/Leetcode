@@ -23,7 +23,7 @@ int romanToInt(char *r)
     int n = 0;
     char roman[7] = {'I', 'V', 'X', 'L', 'C', 'D', 'M'};
     int numerals[7] = {1, 5, 10, 50, 100, 500, 1000};
-    while (i < strlen(r))
+    while (i < (int)strlen(r))
     {
         if (r[i] == 'I' && (r[i+1] == 'V' || r[i+1] == 'X'))
             n -= 2;

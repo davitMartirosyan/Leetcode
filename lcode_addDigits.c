@@ -15,7 +15,6 @@ int addDigits(int n)
 int main( void )
 {
     int num = 2563;
-    int tmp = num;
     while (num > 9)
         num = addDigits(num);
     printf("Num: %d\n", num);

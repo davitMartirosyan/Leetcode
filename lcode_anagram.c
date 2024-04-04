@@ -10,7 +10,7 @@ char *toLower(char *s)
     if (!lowerCaseWord)
         exit(EXIT_FAILURE);
     int i = 0;
-    while (i < strlen(s))
+    while (i < (int)strlen(s))
     {
         lowerCaseWord[i] = tolower(s[i]);
         i++;
@@ -25,10 +25,10 @@ bool isAnagram(char *s, char *t)
 
     int alpha[26] = {};
     int i = -1;
-    while (++i < strlen(ls))
+    while (++i < (int)strlen(ls))
         alpha[ ls[i] - 'a' ]++;
     i = -1;
-    while (++i < strlen(lt))
+    while (++i < (int)strlen(lt))
         alpha[ lt[i] - 'a']--;
     i = -1;
     while (++i < 26)
