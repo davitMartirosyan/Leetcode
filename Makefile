@@ -6,7 +6,7 @@ CFLAGS = #-Wall -Wextra -Werror
 all: $(BUILD)
 
 $(BUILD): % : %.c
-	$(CC) $(CFLAGS) $< -lm -o $@
+	$(CC) $(CFLAGS) $< libft/libft.a -lm -o $@
 
 clean:
 	rm -rf $(BUILD)
