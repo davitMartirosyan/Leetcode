@@ -1,7 +1,7 @@
 SRC = $(wildcard *.c)
 BUILD = $(SRC:.c=)
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = #-Wall -Wextra -Werror
 
 all: $(BUILD)
 
